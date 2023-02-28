@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I'm a Frontend software developer who builds sites and apps that help people reach their personal and professional goals."/>
+  <title>Eleventy Portfolio</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <title>Page title</title>
-    <p style="font-size: 32px;">Hello, Mundek!</p>
+  <div class="content">
+    <header class="header container">
+    <h1 class="header__title">
+        <a href="/">Marie Jackson</a>
+    </h1>
+    <ul class="header__links">
+        <li>
+            <a class="header__link" href="/about">About</a>
+        </li>
+        <li>
+            <a class="header__link" href="/projects">Projects</a>
+        </li>
+        <li>
+            <a class="header__link" href="/contact">Contact</a>
+        </li>
+    </ul>
+</header>
+    <main class="main container">
+      
+<section class="profile">
+  <div class="profile__image-wrapper">
+    <img class="profile__image" src="/images/profile.jpg" alt="Marie Jackson, Software Developer">
+  </div>
+  <div class="profile__card">
+    <p class="profile__text">Hi! I'm <span class="profile__text--highlight">Marie</span>, a mathematician turned software developer from Hampton, Virginia.</p>
+    <p class="profile__text">As a <span class="profile__text--highlight">Frontend Developer</span>, I love building sites and apps that help people reach their personal and professional goals.</p>
+    <p class="profile__text">I focus on speed, security and scalability, using React.js and Firebase to create rich, dynamic experiences.</p>
+    <p class="profile__text">I'm always open to new opportunities and projects. So don't hesitate to <a class="profile__link" href="/contact">get in touch</a>.<p>
+  </div>
+</section>
+<section class="technologies">
+  <h2 class="technologies__heading">Technologies I love to work with</h2>
+  <ul class="technologies__list">
+    <li class="technologies__item">
+      <div class="technologies__logo">
+      <img src="/images/javascript.svg" alt="JavaScript logo">
+      </div>
+      <h3 class="technologies__title">JavaScript</h3>
+    </li>
+    <li class="technologies__item">
+      <div class="technologies__logo">
+      <img src="/images/react.svg" alt="React.js logo">
+      </div>
+      <h3 class="technologies__title">React.js</h3>
+    </li>
+    <li class="technologies__item">
+      <div class="technologies__logo">
+        <img src="/images/tailwindcss.svg" alt="Tailwind CSS logo">
+      </div>
+      <h3 class="technologies__title">Tailwind CSS</h3>
+    </li>
+    <li class="technologies__item">
+      <div class="technologies__logo">
+        <img src="/images/firebase.svg" alt="Firebase logo">
+      </div>
+      <h3 class="technologies__title">Firebase</h3>
+    </li>
+  </ul>
+</section>
+
+    </main>
+    <footer class="footer">
+    <p>&copy; Marie Jackson 2022</p>
+</footer>
+  </div>
+
 </body>
 </html>
